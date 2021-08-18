@@ -16,18 +16,10 @@
         "test": "node admin/scripts/test.js"
     },
     "dependencies": {
-        "lodash": "4.17.11",
-        "that-box2d-library": "0.0.23"
+        "lodash": "4.17.21",
+        "that-box2d-library": "0.0.32"
     },
     "devDependencies": {
-        "@types/jasmine": "3.3.0",
-        "@types/node": "10.12.9",
-        "jasmine-core": "3.3.0",
-        "jasmine-spec-reporter": "4.2.1",
-        "nyc": "13.1.0",
-        "that-build-library": "1.0.2",
-        "ts-node": "7.0.1",
-        "tsconfig-paths": "3.7.0",
-        "typescript": "3.1.4"
+        "that-dev-library": "0.0.11"
     }
 }
