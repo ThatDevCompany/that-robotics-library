@@ -1,7 +1,7 @@
 {
     "name": "that-robotics-library",
     "description": "A simple robotics library based on the concept of Sensor, Actuator and Connector robotics",
-    "version": "0.1.1",
+    "version": "0.1.4",
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -11,10 +11,9 @@
         "Stephen James <steve@thatdevcompany.com> (http://thatdevcompany.com)"
     ],
     "scripts": {
-        "lint": "node admin/scripts/lint.js",
-        "build": "node admin/scripts/build.js",
-        "test": "node admin/scripts/test.js",
-        "publish": "node admin/scripts/publish.js"
+        "prepare": "npm config set registry https://registry.npmjs.org",
+        "preinstall": "npm config set registry https://registry.npmjs.org",
+        "test": "node admin/scripts/test.js"
     },
     "dependencies": {
         "lodash": "4.17.11",
